@@ -23,6 +23,8 @@
 		C9702300192A671200336405 /* BinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97022FF192A671200336405 /* BinarySearchTreeTests.m */; };
 		C970230B192A672900336405 /* SeachObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C970230A192A672900336405 /* SeachObject.m */; };
 		C970230E192A673800336405 /* node.m in Sources */ = {isa = PBXBuildFile; fileRef = C970230D192A673800336405 /* node.m */; };
+		C9C29B28192B1DB400EE5EDD /* mvhashbucket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C29B25192B1DB400EE5EDD /* mvhashbucket.m */; };
+		C9C29B29192B1DB400EE5EDD /* mvhashtable.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C29B27192B1DB400EE5EDD /* mvhashtable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		C970230A192A672900336405 /* SeachObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeachObject.m; path = ../SeachObject.m; sourceTree = "<group>"; };
 		C970230C192A673800336405 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = ../node.h; sourceTree = "<group>"; };
 		C970230D192A673800336405 /* node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = node.m; path = ../node.m; sourceTree = "<group>"; };
+		C9C29B24192B1DB400EE5EDD /* mvhashbucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvhashbucket.h; sourceTree = "<group>"; };
+		C9C29B25192B1DB400EE5EDD /* mvhashbucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mvhashbucket.m; sourceTree = "<group>"; };
+		C9C29B26192B1DB400EE5EDD /* mvhashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvhashtable.h; sourceTree = "<group>"; };
+		C9C29B27192B1DB400EE5EDD /* mvhashtable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mvhashtable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				C970230A192A672900336405 /* SeachObject.m */,
 				C970230C192A673800336405 /* node.h */,
 				C970230D192A673800336405 /* node.m */,
+				C9C29B24192B1DB400EE5EDD /* mvhashbucket.h */,
+				C9C29B25192B1DB400EE5EDD /* mvhashbucket.m */,
+				C9C29B26192B1DB400EE5EDD /* mvhashtable.h */,
+				C9C29B27192B1DB400EE5EDD /* mvhashtable.m */,
 				C97022E3192A671200336405 /* mvAppDelegate.h */,
 				C97022E4192A671200336405 /* mvAppDelegate.m */,
 				C97022E6192A671200336405 /* Main.storyboard */,
@@ -262,8 +272,10 @@
 			files = (
 				C970230E192A673800336405 /* node.m in Sources */,
 				C97022EB192A671200336405 /* mvViewController.m in Sources */,
+				C9C29B29192B1DB400EE5EDD /* mvhashtable.m in Sources */,
 				C97022E1192A671200336405 /* main.m in Sources */,
 				C97022E5192A671200336405 /* mvAppDelegate.m in Sources */,
+				C9C29B28192B1DB400EE5EDD /* mvhashbucket.m in Sources */,
 				C970230B192A672900336405 /* SeachObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +481,7 @@
 				C9702305192A671200336405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9702306192A671200336405 /* Build configuration list for PBXNativeTarget "BinarySearchTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +490,7 @@
 				C9702308192A671200336405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
