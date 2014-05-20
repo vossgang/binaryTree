@@ -7,6 +7,7 @@
 //
 
 #import "mvViewController.h"
+#import "SeachObject.h"
 
 @interface mvViewController ()
 
@@ -17,6 +18,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    SeachObject *obj = [SeachObject new];
+    
+    for (int i = 0; i < 5; i++) {
+        [obj addValue:arc4random_uniform(1000)];
+    }
+    
+    [obj printOutAllNodes];
+    
+    NSLog(@"\n\n\n");
+
+    
+    [obj addValue:440];
+    [obj addValue:439];
+    [obj addValue:441];
+    
+    [obj printOutAllNodes];
+    
+    for (int i = 0; i < 5; i++) {
+        [obj addValue:arc4random_uniform(1000)];
+    }
+    NSLog(@"\n\n\n");
+
+    [obj printOutAllNodes];
+    
+    NSLog(@"\n\n\n");
+    
+    [obj deleteNode:[obj findNodeForValue:440]];
+    sleep(3);
+    
+    [obj printOutAllNodes];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

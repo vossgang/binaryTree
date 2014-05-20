@@ -21,6 +21,8 @@
 		C97022F6192A671200336405 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97022D8192A671200336405 /* UIKit.framework */; };
 		C97022FE192A671200336405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97022FC192A671200336405 /* InfoPlist.strings */; };
 		C9702300192A671200336405 /* BinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97022FF192A671200336405 /* BinarySearchTreeTests.m */; };
+		C970230B192A672900336405 /* SeachObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C970230A192A672900336405 /* SeachObject.m */; };
+		C970230E192A673800336405 /* node.m in Sources */ = {isa = PBXBuildFile; fileRef = C970230D192A673800336405 /* node.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		C97022FB192A671200336405 /* BinarySearchTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BinarySearchTreeTests-Info.plist"; sourceTree = "<group>"; };
 		C97022FD192A671200336405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C97022FF192A671200336405 /* BinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTreeTests.m; sourceTree = "<group>"; };
+		C9702309192A672900336405 /* SeachObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeachObject.h; path = ../SeachObject.h; sourceTree = "<group>"; };
+		C970230A192A672900336405 /* SeachObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeachObject.m; path = ../SeachObject.m; sourceTree = "<group>"; };
+		C970230C192A673800336405 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = ../node.h; sourceTree = "<group>"; };
+		C970230D192A673800336405 /* node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = node.m; path = ../node.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		C97022DA192A671200336405 /* BinarySearchTree */ = {
 			isa = PBXGroup;
 			children = (
+				C9702309192A672900336405 /* SeachObject.h */,
+				C970230A192A672900336405 /* SeachObject.m */,
+				C970230C192A673800336405 /* node.h */,
+				C970230D192A673800336405 /* node.m */,
 				C97022E3192A671200336405 /* mvAppDelegate.h */,
 				C97022E4192A671200336405 /* mvAppDelegate.m */,
 				C97022E6192A671200336405 /* Main.storyboard */,
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C970230E192A673800336405 /* node.m in Sources */,
 				C97022EB192A671200336405 /* mvViewController.m in Sources */,
 				C97022E1192A671200336405 /* main.m in Sources */,
 				C97022E5192A671200336405 /* mvAppDelegate.m in Sources */,
+				C970230B192A672900336405 /* SeachObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
